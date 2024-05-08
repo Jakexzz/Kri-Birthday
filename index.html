@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Center vertically */
+    height: 100vh;
+    margin: 50px;
+    flex-direction: column;
+    /* Stack items vertically */
+    background-color: #EDB4B6;
+    /* Moved background color to body */
+    font-family: Monsteratt, sans-serif;
+  }
+</style>
+
+
+<body>
+  <h1>Enter Password</h1>
+
+  <input class="styleinput" type="text" id="name" name="name" required minlength="4" maxlength="8" size="12" />
+  <br>
+  <button class="submit-button" onclick="checkPassword()">Submit</button>
+  <script src="script.js"></script>
+</body>
+
+
+<script>
+
+  function checkPassword() {
+    // Get the input element
+    var input = document.getElementById('name');
+    // Get the value entered by the user
+    var inputValue = input.value.toLowerCase(); // Convert to lowercase
+    // Define your password
+    var password = "i<3u"; // Convert to lowercase
+    // Check if the input value matches the password
+    if (inputValue === password) {
+      window.location.href = 'welcome.html';
+
+    } else {
+      alert('Incorrect password!');
+    }
+  }
+
+</script>
+
+</html>

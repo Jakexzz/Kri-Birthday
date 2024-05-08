@@ -1,0 +1,91 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.styleinput {
+
+  /* Green */
+  border: none;
+  color: black;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: default;
+  border-radius: 10px;
+
+
+}
+
+.submit-button {
+  border: none;
+  /* No border */
+  color: white;
+  /* White text */
+  padding: 10px 20px;
+  /* Padding */
+  text-align: center;
+  /* Centered text */
+  text-decoration: none;
+  /* No underline */
+  display: inline-block;
+  /* Displayed as inline block */
+  font-size: 16px;
+  /* Font size */
+  margin: 4px 2px;
+  /* Margin */
+  cursor: pointer;
+  /* Cursor style */
+  border-radius: 8px;
+  /* Rounded corners */
+
+
+}
+
+.submit-button:hover {
+  background-color: #06A695;
+  /* Darker red */
+  transform: translateY(-10px);
+  opacity: 0.7;
+}
+
+.next1 {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+
+  background-color: #FF69B4;
+  /* Pinkish-red background */
+  color: white;
+  /* White text */
+  padding: 10px 20px;
+  /* Padding around text */
+  font-size: 16px;
+  /* Font size */
+  border: none;
+  /* Remove border */
+  border-radius: 20px;
+  /* Rounder corners */
+  cursor: pointer;
+  /* Cursor on hover */
+  transition: background-color 0.3s;
+  /* Smooth transition for background color */
+
+
+}
+
+.next1:hover {
+  background-color: #067EE8;
+  transform: translateY(-10px);
+}
+
+.kri_photos {
+
+  border: 5px solid #ddd;
+  border-radius: 8px;
+  height: 400px;
+  width: 500px;
+}
